@@ -2,7 +2,7 @@
 
 A basic automation framework for the website https://www.saucedemo.com/, covering 1 checkout flow with 3 products in cypress. This framework can be further scaled to get integrated with kubernetes and jenkins to run remotely
 
-## technologies used
+## technologies/external dependecies used needs to be installed
 
 - **Node.js** Installation of node.js is pre-requisite for using cypress as our framework
 - **Cypress** as automation framework for web applications
@@ -14,8 +14,7 @@ A basic automation framework for the website https://www.saucedemo.com/, coverin
 1. Install any editor e.g. - visual studio code
 2. Install cypress in your machine by running command - **npm i cypress --save-dev**
 3. Post cypress installation,Invoke cypress for the first time by running **"npx cypress open"**
-4. We automatically get a basic folder structure with dummy tests, add a new TC as per our requirement(e.g. saucelabs_checkout_e2e.js) .
-5. We will get the report html along with cypress video to see the run result
+4. Once the run is complete, **We will get mochawsome report html along with cypress video** to see the run result
 
 ## Covered flows
 
