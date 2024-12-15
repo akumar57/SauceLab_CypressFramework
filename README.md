@@ -7,15 +7,15 @@ A basic automation framework for the website https://www.saucedemo.com/, coverin
 - **Node.js** Installation of node.js is pre-requisite for using cypress as our framework
 - **Cypress** as automation framework for web applications
 - **JavaScript** as the programming language which is compatible with cypress
+- **Mochawsome** for report generation in html format
 
 ## Setup and installation:
 
 1. Install any editor e.g. - visual studio code
-2. Install cypress in your machine by running command - npm i cypress --save-dev
-3. Post cypress installation,Invoke cypress for the first time by running "npx cypress open"
+2. Install cypress in your machine by running command - **npm i cypress --save-dev**
+3. Post cypress installation,Invoke cypress for the first time by running **"npx cypress open"**
 4. We automatically get a basic folder structure with dummy tests, add a new TC as per our requirement(e.g. saucelabs_checkout_e2e.js) .
-5. Install prettier or eslint for formatting purpose using Setting >> extensions >> Prettier - Code Formatter and configure it
-6. Ensure to avoid hardwait as much as possible and follow best coding practices like passing baseUrl,username,password from config file instead of hardcoding it directly in spec files
+5. We will get the report html along with cypress video to see the run result
 
 ## Covered flows
 
