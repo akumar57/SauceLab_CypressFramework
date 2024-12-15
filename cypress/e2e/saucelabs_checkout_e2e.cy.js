@@ -2,7 +2,7 @@ describe("e2e Checkout flow for Saucedemo website", () => {
   const username = Cypress.config("username");
   const password = Cypress.config("password");
 
-  it("Saucedemo websote core checkout flow by randomly adding 3 products from top", () => {
+  it("Saucedemo website core checkout flow by randomly adding 3 products from top", () => {
     cy.visit("/v1/index.html")
       .get("#user-name")
       .type(username)
